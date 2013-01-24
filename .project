@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Logger</name>
+	<name>com.nicolasri.util.logger.Logger</name>
 	<comment>Android logcat application</comment>
 	<projects>
 	</projects>

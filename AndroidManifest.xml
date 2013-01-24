@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.michaelrnovak.util.logger"
+      package="com.nicolasri.util.logger"
       android:versionCode="7"
       android:versionName="1.4">
       
     <uses-permission android:name="android.permission.READ_LOGS" />
     
     <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
-        <activity android:name=".Logger"
+        <activity android:name="com.nicolasri.util.logger.Logger"
                   android:label="@string/app_name"
                   android:configChanges="orientation">
             <intent-filter>
@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         
-        <service android:name=".service.LogProcessor" android:label="Log Processor"></service>
+        <service android:name="com.nicolasri.util.logger.service.LogProcessor" android:label="Log Processor"></service>
     </application>
     <uses-sdk android:minSdkVersion="3" />
 
